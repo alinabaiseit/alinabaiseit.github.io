@@ -1,0 +1,33 @@
+.banner { 
+	display: block;
+	background-image: url("hackerman.gif");
+	width: 1200px;
+	height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    padding-top: 120px;
+}
+#task {
+    font-style: italic;
+    padding-left: 0px;
+}
+h1,h2,h3,h4,h5,h6 [style] {
+    text-align: center;
+    border-bottom: 2px dotted;
+    border-color: pink;
+}
+table {
+    background-color: beige;
+    border-width: 100px;
+
+}
+li:hover {
+    color:chartreuse
+}
+
+.name:after {
+    content: "    : Alina Baiseit";
+    font-style: italic;
+    font-size: large;
+}
